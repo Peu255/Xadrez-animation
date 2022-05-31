@@ -2,8 +2,8 @@
     width: 80px;
     height: 80px;
     position: absolute;
-    background-color: rgb(248, 2, 2);
-    animation: caval 10s infinite;
+    background-color: rgba(248, 2, 2, 0);
+    animation: caval 15s infinite;
 }
 
 .cavaloimg{
@@ -12,6 +12,24 @@
 }
 @keyframes caval{
     0%{top: 10px; left: 562px;}
-    50%{top: 169px; left: 562px;}
-    100%{top: 169px; left: 642px;}
+    5%{top: 169px; left: 562px;}
+    10%{top: 169px; left: 642px;}
+    15%{top: 169px; left: 798px;}
+    20%{top: 249px; left: 798px;}
+    25%{top: 249px; left: 642px;}
+    30%{top: 329px; left: 642px;}
+    35%{top: 329px; left: 482px;}
+    40%{top: 409px; left: 482px;}
+    45%{top: 569px; left: 482px;}
+    50%{top: 569px; left: 562px;}
+    55%{top: 409px; left: 562px;}
+    60%{top: 409px; left: 642px;}
+    65%{top: 409px; left: 802px;}
+    70%{top: 329px; left: 802px;}
+    75%{top: 329px; left: 642px;}
+    80%{top: 249px; left: 642px;}
+    85%{top: 89px; left: 642px;}
+    90%{top: 89px; left: 722px;}
+    95%{top: 89px; left: 562px;}
+    100%{top: 10px; left: 562px;}
 }
